@@ -15,8 +15,8 @@ var app = angular.module('app', ['PubSub']);
 
 ##Using PubSub
 
-### Inject as dependancey
-Inject the service as a dependancy of the application modules, to use it:
+### Inject as dependency
+Inject the service as a dependency of the application modules, to use it:
 ```js
 var MyController = app.controller('MyController', ['PubSub', function (PubSub) {
 	// do your stuff here...
